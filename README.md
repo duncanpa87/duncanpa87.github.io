@@ -1,2 +1,0 @@
-# tomshanski.github.io
-Resume
