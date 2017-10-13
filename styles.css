@@ -88,7 +88,7 @@ h2 {
 	border-radius: 8px;
 	display: inline-block;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
 	.container {
 	display: grid;
 	width: 100%;
