@@ -109,6 +109,13 @@ h2 {
 	.container .contact p {
 	margin: .5em;
 	font-size: .8em;
+	
+	.interests {
+	grid-column: 1/span 7;
+	}
+	.contact {
+	grid-column: 8/-1;	
+	}
 }
 }	
 /* @media (max-width: 800px) {
