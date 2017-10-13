@@ -163,7 +163,11 @@ h2 {
 	border-radius: 8px;
 	}
 }
-	
+@media (max-width: 800px) {	
+	.profilePic {
+		display: none;
+	}
+}
 /* @media (max-width: 800px) {
 	body {
 	font-size: 1em
