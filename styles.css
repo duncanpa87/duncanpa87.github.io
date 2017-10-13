@@ -111,10 +111,10 @@ h2 {
 	font-size: .8em;
 	}
 	.interests {
-	grid-column: 1/span 7;
+	grid-column: 1/span 6;
 	}
 	.contact {
-	grid-column: 8/-1;	
+	grid-column: 7/-1;	
 	}
 }
 	
