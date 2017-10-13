@@ -91,7 +91,11 @@ h2 {
 	grid-row: 2/span 2;
 	grid-column: 9/-1;
 	border-radius: 8px;
-	display: inline-block;
+}
+.myVideo iframe{
+	position: relative;
+	height: 100%;
+	border-radius: 8px;
 }
 @media (max-width: 1300px) {
 	.container {
@@ -148,7 +152,7 @@ h2 {
 	grid-row: 3/7;
 	}
 	.skills {
-	grid-column: 9/-1;
+	grid-column: 9/span 4;
 	grid-row: 3/7;
 	}
 	.awards {
@@ -164,13 +168,16 @@ h2 {
 	grid-row: 11/ span 2;
 	}
 	.contact {
-	grid-column: 9/-1;
+	grid-column: 9/span 4;
 	grid-row: span 3;
 	}
 	.myVideo {
 	grid-row: 7/10;
-	grid-column: 9/-1;
-	border-radius: 8px;
+	grid-column: 9/span 4;
+	border-radius: 6px;
+	}
+	.myVideo iframe{
+	border-radius: 6px;
 	}
 }
 @media (max-width: 800px) {	
