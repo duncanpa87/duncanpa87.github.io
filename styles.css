@@ -177,6 +177,9 @@ h2 {
 	border-radius: 6px;
 	}
 	.myVideo iframe{
+	position: relative;
+	height: 100%;
+	margin: 0;
 	border-radius: 6px;
 	}
 }
