@@ -184,15 +184,6 @@ h2 {
 	border-radius: 6px;
 	}
 }
-/*@media (max-width: 1000px) {
-    .container {
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(12, 1fr);
-    }
-    .header h2 {
-        padding-right: 0px;
-    }
-}
 /* @media (max-width: 800px) {
 	body {
 	font-size: 1em
