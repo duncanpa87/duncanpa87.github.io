@@ -185,7 +185,13 @@ h2 {
 	}
 }
 @media (max-width: 800px) {	
-	
+    .container {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+    .header h2 {
+        padding-right: 0px;
+    }
 }
 /* @media (max-width: 800px) {
 	body {
