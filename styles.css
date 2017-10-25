@@ -121,6 +121,10 @@ img {
     }
     .header h2 {
         padding: 45px;
+        padding-left: 85px;
+    }
+    .work h2 {
+        padding-left: 85px;
     }
 }
 
