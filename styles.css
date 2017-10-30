@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', Times;
-    font-size: 14px;
+    font-size: 16px;
     color: #d5dae2;
     background: #6e798c;
 }
@@ -69,19 +69,18 @@ img {
     grid-column: 7/-1;
 }
 .education {
-    grid-column: 1/span 9;
-    grid-row: span 2;
-    
+    grid-column: 1/span 6;  
+}
+.container .education ul {
+	margin-left: 18px;
 }
 .interests {
-    grid-column: 10/-1;
+    grid-column: 7/-1;
 }
 .contact {
-    grid-column: 10/-1;
+    grid-column: 1/-1;
 }
 .container .contact p {
-    margin: .5vw;
-    font-size: .8vw;
     color: #cbd0d8;
     text-align: right;
 }
