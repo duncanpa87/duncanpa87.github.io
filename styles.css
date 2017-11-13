@@ -125,14 +125,12 @@ img {
     }
     .education {
         grid-column: 1/span 7;
-        grid-row: span 2;
-        
     }
     .interests {
         grid-column: 8/-1;
     }
     .contact {
-        grid-column: 8/-1;
+        grid-column: 1/-1;
     }
 }
 
