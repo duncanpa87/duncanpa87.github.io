@@ -114,24 +114,28 @@ img {
     .header h2 {
         padding: 85px;
     }
+	.container div {
+		grid-column: 1/-1;
+		grid-row: auto;
+	}
+	.container .header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+	}
+
 }
 @media only screen and (max-device-width: 600px){
     img {
         height: 120px;
     }
-    .header h2 {
-        padding: 45px;
-        padding-left: 85px;
-    }
-    .education {
-        grid-column: 1/span 7;
-    }
-    .interests {
-        grid-column: 8/-1;
-    }
-    .contact {
-        grid-column: 1/-1;
-    }
+    .container div {
+		grid-column: 1/-1;
+		grid-row: auto;
+	}
+	.container .header {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+	}
 }
 
 /*@media (max-width: 1300px) {
