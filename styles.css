@@ -129,13 +129,17 @@ img {
         height: 120px;
     }
     .container div {
-		grid-column: 1/-1;
-		grid-row: auto;
+	grid-column: 1/-1;
+	grid-row: auto;
 	}
 	.container .header {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
 	}
+	.header h2 {
+    padding: 45px;
+	padding-left: 100px;
+    }
 }
 
 /*@media (max-width: 1300px) {
