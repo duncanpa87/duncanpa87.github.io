@@ -77,8 +77,11 @@ img {
 .interests {
     grid-column: 7/-1;
 }
+.references {
+    grid-column: 1/5;
+}
 .contact {
-    grid-column: 1/-1;
+    grid-column: 5/-1;
 }
 .container .contact p {
     color: #cbd0d8;
